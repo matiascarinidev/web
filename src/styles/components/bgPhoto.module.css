@@ -1,0 +1,4 @@
+.bgPhoto {
+  background: url("../../../public/images/hero/hero-bg.jpg") bottom center /
+    cover no-repeat fixed;
+}

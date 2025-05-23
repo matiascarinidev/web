@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 100"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <text x="5" y="92" font-weight = "700" font-size="110">A</text>
+    <text x="80" y="60" font-size="48">NTENOR</text>
+    <line x1="76" y1="65" x2="280" y2="65" />
+    <text x="85" y="80" font-size="15">RESTAURANTE DE CAMPO</text>
+</svg>
