@@ -12,8 +12,6 @@ export default function ReservasLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="flex justify-center items-center h-[100vh]">
-      {children}
-    </main>
+    <main className="flex justify-center items-center p-6">{children}</main>
   );
 }

@@ -58,20 +58,15 @@ export default function ReservaForm() {
       className="w-5/6 m-auto space-y-4 grid grid-cols-4 gap-4"
     >
       <div className="grid col-span-2">
-        <label className="block text-sm font-medium">
-          Nombre completo
-          <input
-            {...register("nombre")}
-            className="w-full p-2 border rounded"
-          />
-          {errors.nombre && (
-            <p className="text-red-500 text-xs">{errors.nombre.message}</p>
-          )}
-        </label>
+        <label className="block text-sm  font-bold">Nombre completo *</label>
+        <input {...register("nombre")} className="w-full p-2 border rounded" />
+        {errors.nombre && (
+          <p className="text-red-500 text-xs">{errors.nombre.message}</p>
+        )}
       </div>
 
       <div className="grid col-span-1">
-        <label className="block text-sm font-medium">Teléfono</label>
+        <label className="block text-sm font-bold ">Teléfono *</label>
         <input {...register("telefono")} className="w-full border rounded" />
         {errors.telefono && (
           <p className="text-red-500 text-xs">{errors.telefono.message}</p>
@@ -80,7 +75,7 @@ export default function ReservaForm() {
 
       <div>
         <label className="block text-sm font-medium">
-          Cantidad de personas
+          Cantidad de personas *
         </label>
         <input
           type="number"
@@ -95,7 +90,7 @@ export default function ReservaForm() {
         )}
       </div>
       <div className="grid col-span-2">
-        <label className="block text-sm font-medium">Email</label>
+        <label className="block text-sm font-medium"> Email *</label>
         <input {...register("email")} className="w-full p-2 border rounded" />
         {errors.email && (
           <p className="text-red-500 text-xs">{errors.email.message}</p>
